@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+games = Game.create([{state: ['', '', '', '', '', '', '', '', '']}, {state: ['O', 'X', 'O', '', 'X', 'X', '', 'X', 'O']}, {state: ['O', 'X', '', '', '', '', '', '', '']}])
